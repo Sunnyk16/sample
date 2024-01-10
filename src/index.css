@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  /* font-family: sans-serif; */
+  font-family:'Courier New', Courier, monospace;
   
 }
 .container{
@@ -15,7 +15,7 @@ body {
 .cards{
 
   margin: 5px;
-  background-color: plum;
+  background-color: tomato;
   color: #fff;
   font-size: 24px;
   font-weight: 400;
@@ -33,11 +33,11 @@ body {
   text-align: justify;
 }
 .cards:hover{
-  transform: scale(0.9);
+  transform: scale(0.8);
   transition: 0.3s ease-in-out;
 }
 .img > img{
-  width: 300px;
+  width: 340px;
   height: 300px;
   border-radius: 0.3rem;
   display: flex;
